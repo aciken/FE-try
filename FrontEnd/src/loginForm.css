@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(./assets/ProductSansRegular.ttf);
+}
+
+
+
+.login{
+    font-size: 1.2rem;
+    font-family: 'Roboto-Regular';
+    background-color: #171717;
+    height: 93.6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+color: white
+}
+
+.login-form{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-form input{
+
+    padding: 6px 12px;
+    background: rgb(31, 32, 35);
+    border: 1px solid rgb(60, 63, 68);
+    border-radius: 4px;
+    font-size: 13px;
+    color: rgb(247, 248, 248);
+    height: 46px;
+    appearance: none;
+    transition: border 0.15s ease 0s;
+
+  
+}
+
+.login-form input:hover {
+    border-color: #ccc;
+}
+.login-form input:focus{
+    background: #161616;
+}
+
+.sign-btn{
+    cursor: pointer;
+    font-size: .9rem;
+    padding: 8px 75px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.form-border{
+    /* border: 2px solid black; */
+    background-color: #171717;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+    .forgot{
+    color: rgb(255, 255, 255);
+    font-size: .8rem;
+    text-decoration: underline;
+}
+
+.sign-up{
+    cursor: default;
+    background-color: #171717;
+    color: rgb(255, 255, 255);  
+}
+.sign-up a{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+.sign-up:hover{
+    background-color: #171717;
+    color: rgb(255, 255, 255);  
+}
+
+.wrong-input{
+    font-size: .9rem;
+    color: red;
+}
+
